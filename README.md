@@ -1,4 +1,4 @@
-## Task Implemented
+## Task Completed
 1.  Completed the task as per the given requirement document.
 
 2.  Implemented REST service to fetch the User account details by providing
@@ -33,7 +33,7 @@ Response:
 
 4.**Main Class ->** Main Springboot java class (SpringBootMain.java) resides under Src/Main 
 
-5.Able to fetch the User and account details by passing the token in the provided USerInfoMock and AccountInfoMock service.
+5.Able to fetch the User and account details by passing the token in the provided UserInfoMock and AccountInfoMock service.
 
 6.Implemented to handle **Sync/Async calls**
 
@@ -49,8 +49,6 @@ AccountInfoMock & UserInfoMock (backend module) to fetch Account & user details
 10.Implemented Logger to track trace the output.
 
 11.Created junIt to test the UserController class and also User & Account Service implementation classes
-
-12.SpringBootMain is the main class resides inside Src/Main folder
 
 ##  Framework/Libraries Used:
 1.Spring boot (Web)
@@ -76,9 +74,13 @@ AccountInfoMock & UserInfoMock (backend module) to fetch Account & user details
 11.validation-api
 
 ## Code files Structure 
-![img_3.png](img_3.png)
 
-![img_4.png](img_4.png)
+![image](https://user-images.githubusercontent.com/103390403/162835259-e1454aa0-33dd-4a7b-937e-0ea1fd0b928e.png)
 
-![img_6.png](img_6.png)
+![image](https://user-images.githubusercontent.com/103390403/162835338-7f161ce7-2131-4e75-bb0c-8ce3916e52fe.png)
+
+![image](https://user-images.githubusercontent.com/103390403/162835382-cf98b4ab-1560-4529-86c5-0bed60b1c77b.png)
+
+
+
 
