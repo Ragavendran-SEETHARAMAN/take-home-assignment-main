@@ -31,7 +31,7 @@ Response:
 
 3.Service implemented by calling REST service to invoke the gRPC server.
 
-4.**Run ->** Run the main java class SpringBootMain.java resides under Src/Main 
+4.**Main Class ->** Main Springboot java java class (SpringBootMain.java) resides under Src/Main 
 
 5.Able to fetch the User and account details by passing the token in the provided USerInfoMock and AccountInfoMock service.
 
