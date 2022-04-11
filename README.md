@@ -50,6 +50,8 @@ AccountInfoMock & UserInfoMock (backend module) to fetch Account & user details
 
 11.Created junIt to test the UserController class and also User & Account Service implementation classes
 
+12.All the source files are created in **service** Module
+
 ##  Framework/Libraries Used:
 1.Spring boot (Web)
 
