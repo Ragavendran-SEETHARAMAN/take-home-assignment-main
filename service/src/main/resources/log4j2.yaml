@@ -1,0 +1,28 @@
+Configuration:
+  status: warn
+  name: YAMLConfigTest
+  thresholdFilter:
+    level: info
+  appenders:
+    Console:
+      name: STDOUT
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS}  [%c{1}] - %msg%n"
+  Loggers:
+    logger:
+      -
+        name: org.apache.logging.log4j.test1
+        level: info
+        additivity: false
+        ThreadContextMapFilter:
+          KeyValuePair:
+            key: test
+            value: 123
+        AppenderRef:
+          ref: STDOUT
+
+    Root:
+      level: info
+      AppenderRef:
+        ref: STDOUT
